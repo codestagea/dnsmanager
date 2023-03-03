@@ -1,0 +1,17 @@
+log_level: INFO
+http:
+  host: 0.0.0.0
+  port: 8000
+  token: 
+  context-path: /dnsmanager/api
+database:
+  driver: mysql
+  dsn: 
+  debug: true
+  auto-migrate: true
+jwt:
+  secret: 
+  timeout: 3600
+rsa:
+  privateKey: 
+  publicKey: 

@@ -1,0 +1,18 @@
+@import './sidebar.scss';
+@import './reset.scss';
+@import './dark.scss';
+
+
+// main-container global css
+.app-container {
+    padding: 20px;
+}
+
+.search {
+    padding: 18px 0 0 10px;
+    margin-bottom: 10px;
+    border-radius: var(--el-card-border-radius);
+    border: 1px solid var(--el-border-color-light);
+    box-shadow: var(--el-box-shadow-light);
+    background-color: var(--el-bg-color-overlay);
+}
